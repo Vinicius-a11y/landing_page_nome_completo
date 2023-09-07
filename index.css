@@ -1,31 +1,67 @@
 body {
     height: 100vh;
     margin: 10px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(217,78,78,1) 100%, rgba(0,212,255,1) 100%);
+    font-family: "Nunito", sans-serif;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(215, 30, 71, 1) 100%);
+    color: white;
 }
 
-.box {
+main {
     display: flex;
-    flex-flow: column;
-    height: 100vh;
+}
+
+header {
+    .main-menu {
+        border-bottom: 0.4px solid rgba(255, 241, 231, 0.4);
+        padding: 10px;
+        display: flex;
+    }
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    float: left;
   }
 
-#btsProj {
-    float: right;
-}
-
-#btsCont {
-    float: right;
-    padding-left: 10px; 
-}
 
 #logo {
-    float: left;
-    border-radius: 50%;
-    width: 62PX;
     height: 62px;
+    border-radius: 50px;
 }
+
+.content {
+    display: block;
+
+}
+
+.container1 {
+    float: left;
+    padding-left: 10px;
+}
+
+.container2 {
+    float: right;
+}
+
+
+.container3 {
+    display: center;
+    text-align: center;
+}
+
+
+
+#perfil{
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 150px;
+    border-radius: 150px;
+}
+
 
 
 .footer {
