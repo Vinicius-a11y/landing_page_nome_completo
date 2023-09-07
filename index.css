@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    display: flex;
+    text-align: center;
 }
 
 header {
@@ -19,25 +19,19 @@ header {
     }
 }
 
+
+
+
+
 .menu a {
     text-decoration: none;
     color: white;
     margin-right: 50px;
-    position: relative;
-    width: 10px;
-    
   }
   
 #logo {
     height: 62px;
     border-radius: 50px;
-}
-
-.content, container1 {
-    text-align: flex;
-    margin: 0;
-    max-width: 750px;
-    
 }
 
 #perfil{
