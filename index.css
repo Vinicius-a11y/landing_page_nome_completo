@@ -19,52 +19,46 @@ header {
     }
 }
 
-
 .menu a {
     text-decoration: none;
     color: white;
     margin-right: 50px;
-    float: left;
+    
   }
-
-
+  
 #logo {
     height: 62px;
     border-radius: 50px;
 }
 
-.content {
-    display: block;
-
+section {
+    display: flex;
 }
 
-.container1 {
-    float: left;
-    padding-left: 10px;
+.content, container1 {
+    text-align: flex;
+    margin: 0;
+    max-width: 750px;
+    
 }
 
-.container2 {
-    float: right;
-}
-
-
-.container3 {
+container3 {
     display: center;
     text-align: center;
 }
-
-
 
 #perfil{
     width: 300px;
     margin-top: 30px;
     margin-right: 150px;
     border-radius: 150px;
+    position: absolute;
+    top: 100px;
+    right: 0;
 }
-
-
 
 .footer {
     border-top: 0.4px solid rgba(255, 241, 231, 0.4);
+    bottom: 0;
   }
 
