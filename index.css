@@ -23,6 +23,8 @@ header {
     text-decoration: none;
     color: white;
     margin-right: 50px;
+    position: relative;
+    width: 10px;
     
   }
   
@@ -31,20 +33,11 @@ header {
     border-radius: 50px;
 }
 
-section {
-    display: flex;
-}
-
 .content, container1 {
     text-align: flex;
     margin: 0;
     max-width: 750px;
     
-}
-
-container3 {
-    display: center;
-    text-align: center;
 }
 
 #perfil{
