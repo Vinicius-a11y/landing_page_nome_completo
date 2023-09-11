@@ -8,30 +8,34 @@ body {
 }
 
 main {
-    text-align: center;
+   text-align: center;
 }
 
 header {
-    .main-menu {
-        border-bottom: 0.4px solid rgba(255, 241, 231, 0.4);
-        padding: 10px;
-        display: flex;
-    }
+    padding: 10px;
 }
 
+.main-menu {
+    border-bottom: 0.4px solid rgba(255, 241, 231, 0.4);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
 
-
-
+.menu {
+    display: flex;
+}
 
 .menu a {
-    text-decoration: none;
+    margin-left: 20px;
     color: white;
-    margin-right: 50px;
+    text-decoration: none;
   }
   
-#logo {
+.logo {
     height: 62px;
-    border-radius: 50px;
+    border-radius: 50px;  
+    margin-right: 20px;
 }
 
 #perfil{
@@ -39,10 +43,12 @@ header {
     margin-top: 30px;
     margin-right: 150px;
     border-radius: 150px;
-    position: absolute;
+    float: right;
     top: 100px;
     right: 0;
 }
+
+
 
 .footer {
     border-top: 0.4px solid rgba(255, 241, 231, 0.4);
