@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  margin: 10px;
+  font-family: "Nunito", sans-serif;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(215, 30, 71, 1) 100%);
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Caroulse-img img,
+.Login-img img,
+.Snkrs-img img {
+  width: 100%; 
+  max-width: 50%; 
+  height: auto;
+}
+
+.Caroulse-img,
+.Login-img,
+.Snkrs-img {
+  margin: 0 25px;
+  text-align: center;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
